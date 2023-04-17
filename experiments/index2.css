@@ -19,3 +19,9 @@ body {
     max-width: 200px;
 }
 
+#content {
+    background-color: #cccccc;
+    width: 500px;
+    min-height: 300px;
+    padding: 10px;
+}
