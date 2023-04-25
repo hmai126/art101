@@ -15,3 +15,7 @@
 .bolded-text {
     font-weight: bold;
 }
+
+.image {
+    width: 600px;
+}
