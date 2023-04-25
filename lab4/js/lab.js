@@ -1,4 +1,4 @@
-// index.js
+// lab.js
 // This file will recreate a version of Hangman.
 // Author: Hilton Mai, Sion Daniel
 // Date: April 24, 2023
