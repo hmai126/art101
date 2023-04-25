@@ -13,6 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<!-- Lab specific CSS file for Open Sans font of this particular page -->
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
@@ -31,7 +33,8 @@
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>The major problem we had when doing this assignment was thinking of pseudocode for
+					<p>
+						The major problem we had when doing this assignment was thinking of pseudocode for
 						recreating Hangman. We decided to consult ChatGPT to provide some pseudocode considering
 						that neither of us have the programming experience to recreate this type of game.
 					</p>
@@ -39,29 +42,43 @@
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>Despite the pseudocode for creating a computer game being somewhat of an issue, this lab was
+						pretty straightforward for the most part. The tasks were pretty simple to understand and do.
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
 					<div id="output">
+						<p class="bolded-text">Everyday Task - Getting to School Every Morning</p>
+						<ol>
+							<li>Set an alarm before going to bed.</li>
+							<li>Wake up and get out of bed.</li>
+							<li>If needed or desired, shower and brush teeth.</li>
+							<li>Get out of the house.</li>
+							<li>Go to the nearest bus stop that takes you to school and wait for the next bus.</li>
+							<li>Take the bus when it comes.</li>
+							<li>Get off at the stop closest to your first class.</li>
+							<li>Finally, walk to the classroom.</li>
+						</ol>
+						<p class="bolded-text">Pseudocode a Simple Computer Game - Hangman</p>
 						<pre><code>
-							// Hangman Pseudocode - provided by ChatGPT
-							  // Define an array of words to choose from
-							  // Choose a random word from the array
-							  // Create a variable to store number of attempts left
-							  // Create a variable to store the current state of the game
-							  // Loop until the game is over
-							  // Display current state of the word with masked letters
-							  // Display the masked word and the attempts left
-							  // Prompt the user to enter a letter
-							  // If the guessed letter is correct
-								  // Add the correct guess to the guesses array
-								  // Check if the player has won
-							  // If not
-								  // Reduce the attempts left
-								  // Check if the player has lost
-							  // Display the final result
+// Hangman Pseudocode - provided by ChatGPT
+	// Define an array of words to choose from
+	// Choose a random word from the array
+	// Create a variable to store number of attempts left
+	// Create a variable to store the current state of the game
+	// Loop until the game is over
+		// Display current state of the word with masked letters
+		// Display the masked word and the attempts left
+		// Prompt the user to enter a letter
+			// If the guessed letter is correct
+				// Add the correct guess to the guesses array
+				// Check if the player has won
+		// If not
+			// Reduce the attempts left
+			// Check if the player has lost
+	// Display the final result
 						</pre></code>
 					</div>
 			</div>
