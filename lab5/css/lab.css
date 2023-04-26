@@ -7,3 +7,11 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+.content {
+  font-family: "Open Sans";
+}
+
+#output {
+  font-family: "Open Sans";
+}
