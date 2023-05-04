@@ -7,23 +7,34 @@ function addNum(x) {
     return results;
 }
 
-// test addNum()
-console.log("5 + 5 = ", addNum(5));
-console.log("2 + 5 = ", addNum(2));
+function main() {
+    // test addNum()
+    console.log("5 + 5 = ", addNum(5));
+    console.log("2 + 5 = ", addNum(2));
 
-var numArray = [1, 2, 6, 9, 7, 10];
-console.log("My array: ", numArray);
-document.writeln("Original Array: ", JSON.stringify(numArray, null, '\t'), "</br>");
+    var numArray = [1, 2, 6, 9, 7, 10];
+    console.log("My array: ", numArray);
+    var printInfo  = document.getElementById("arrayInfo1");
+    printInfo.innerHTML = "The Original Array: ";
+    var outputEl = document.getElementById("scriptOutput1");
+    outputEl.innerHTML = JSON.stringify(numArray, '\t');
 
-var result = numArray.map(addNum);
-// should return [6, 7, 11, 14, 12, 15]
-console.log("Test of array elements + 5: ", result);
-document.writeln("Here are the array elements + 5: ", JSON.stringify(result, null, '\t'), "</br>");
+    var result = numArray.map(addNum);
+    // should return [6, 7, 11, 14, 12, 15]
+    console.log("Test of array elements + 5: ", result);
+    var printInfo2 = document.getElementById("arrayInfo2");
+    printInfo2.innerHTML = "The Array With Elements + 5: ";
+    var outputEl2 = document.getElementById("scriptOutput2");
+    outputEl2.innerHTML = JSON.stringify(result);
 
-var result = numArray.map(function(x) {
-    return x ** 2;
-})
+    var result = numArray.map(function(x) {
+        return x ** 2;
+    })
 
-// should return [1, 4, 36, 81, 49, 100]
-console.log("This array squared is: ", result)
-document.writeln("Here are the array elements squared: ", JSON.stringify(result, null, '\t'));
+    // should return [1, 4, 36, 81, 49, 100]
+    console.log("This array squared is: ", result)
+    var printInfo3 = document.getElementById("arrayInfo3");
+    printInfo3.innerHTML = "The Array Elements Squared: ";
+    var outputEl3 = document.getElementById("scriptOutput3");
+    outputEl3.innerHTML = JSON.stringify(result);
+}
