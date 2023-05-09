@@ -9,6 +9,13 @@
     font-family: "Open Sans";
   }
 
+#output {
+    border: solid 1px black;
+    background-color: lightgreen;
+    padding: 10px;
+    width: 450px;
+}
+
 .image {
     width: 500px;
 }
