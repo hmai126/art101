@@ -18,7 +18,6 @@ function addParagraph() {
 }
 
 function addHeader() {
-
     // return an element with id "output"
     var outputEl = document.getElementById("output");
 
@@ -33,7 +32,6 @@ function addHeader() {
 }
 
 function modifySectionColor() {
-    
     // return an element with class "minor-section"
     var outputEl = document.getElementsByClassName("minor-section");
 
@@ -45,7 +43,6 @@ function modifySectionColor() {
 }
 
 function modifyFont() {
-
     // return all elements with a tag
     var outputEl = document.getElementsByTagName("*");
 
@@ -55,3 +52,4 @@ function modifyFont() {
         outputEl[i].style.fontFamily = "Comic Sans MS";
     }
 }
+
