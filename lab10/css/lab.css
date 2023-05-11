@@ -1,0 +1,17 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+.content {
+    font-family: "Open Sans";
+  }
+
+#output {
+    border: solid 1px black;
+    background-color: salmon;
+    padding: 10px;
+    width: 280px;
+}
