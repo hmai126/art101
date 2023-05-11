@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 8 - Anon Functions and Callbacks</title>
+	<title>Lab 9 - JavaScript for the Web</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -19,61 +19,55 @@
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file -->
-	<script type="text/javascript" src="js/lab.js"></script>
+	<script type="text/javascript" src="js/lab.js" defer></script>
 
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 8 - Anon Functions and Callbacks</h1>
+			<h1>Lab 9 - JavaScript for the Web</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
 					<p>
-						The challenge of this lab was to experiment with
-						anonymous functions and callbacks.
+						The challenge of this lab was to experiment with DOM manipulation
+						to change HTML attributes on the webpage.
 					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
 					<p>
-						The only problem I had with this lab was having the
-						JavaScript file's output appear on the webpage when
-						the link to the script was in the head of the HTML
-						file. After looking through the lecture slides and
-						doing some quick Google searching, I managed to find
-						a way of printing the output on the webpage in a
-						cleanly manner.
+						I had some trouble changing the background color of the section
+						boxes at first. So, I did some Googling and found that I would
+						have to loop through the elements of that class to change the
+						background color. I also struggled with trying to change the
+						font for all text on the webpage. So, I had to do some more Googling
+						and found a way of accessing all elements with a tag to change
+						the fontFamily property.
 					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
 					<p>
-						Other than the small issue I had with printing the
-						script output, I found the rest of the lab to be easy.
-						I put a lot of effort into getting the script output to
-						print on the webpage with some formatting to keep it from
-						looking messy.
+						I think this was the first lab I had some serious struggle with.
+						It took some effort to figure out how to modify the elements under
+						a class and changing a property for all HTML tags. Overall, I would
+						say that this lab is very helpful for JavaScript in the future.
 					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
+                    <button onClick="javascript:addParagraph()">Click this button to print a paragraph!</button>
+                    <br>
+                    <button onClick="javascript:addHeader()">Click this button to print a level 4 header!</button>
+                    <br>
+                    <button onClick="javascript:modifySectionColor()">Click this button to change the color of the section boxes!</button>
+					<br>
+					<button onClick="javascript:modifyFont()">Click this button to change the font of the page!</button>
 					<div id="output">
-						<h3>Script Output</h3>
-						<p>
-							Go to the console to see the output! Or, you can click the
-							button below to print it here.
-						</p>
-						<button onClick="javascript:main()">Click this button to activate!</button>
-						<p id="arrayInfo1"></p>
-						<p id="scriptOutput1"></p>
-						<p id="arrayInfo2"></p>
-						<p id="scriptOutput2"></p>
-						<p id="arrayInfo3"></p>
-						<p id="scriptOutput3"></p>
 					</div>
 			</div>
 		</section>
@@ -89,6 +83,7 @@
 					<li><a href = "/art101/lab5/index.html">Lab 5 - Data Types and Variables</a></li>
                     <li><a href = "/art101/lab6/index.html">Lab 6 - Javascript Arrays and Objects</a></li>
                     <li><a href = "/art101/lab7/index.html">Lab 7 - Functions</a></li>
+                    <li><a href = "/art101/lab8/index.html">Lab 8 - Anon Functions and Callbacks</a></li>
 				</ul>
 			</div>
 		</nav>
