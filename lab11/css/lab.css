@@ -5,8 +5,25 @@
     background-color: #DDD8C4;
 }
 
+.minor-section2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+}
+
 .special {
     background-color: sandybrown;
+}
+
+.red {
+    color: white;
+    background-color: red;
+}
+
+.green {
+    color: white;
+    background-color: green;
 }
 
 .content {
