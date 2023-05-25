@@ -32,7 +32,7 @@ table {
     border: solid 1px black;
     background-color: lightpink;
     padding: 10px;
-    columns: 3;
+    columns: 5;
 }
 
 #output p {

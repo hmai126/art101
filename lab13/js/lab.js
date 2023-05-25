@@ -8,6 +8,7 @@ var maxFactors = 4;
 var outputEl = $("#output");
 
 // function taken from Wes's JavaScript file, converted from pure JS to jQuery
+// through ChatGPT
 function fizzBuzzBoom(maxNums, factorObj) {
     // iterate over all numbers
     for (var i = 0; i < maxNums; i++) {
@@ -29,6 +30,7 @@ function fizzBuzzBoom(maxNums, factorObj) {
 }
 
 // function taken from Wes's JavaScript file, converted from pure JS to jQuery
+// through ChatGPT
 function getFactorObj() {
     var factorObj = {};
     for (var factor = 0; factor < maxFactors; factor++) {
@@ -46,6 +48,7 @@ function getFactorObj() {
 }
 
 // function taken from Wes's JavaScript file, converted from pure JS to jQuery
+// through ChatGPT
 function outputToPage(str) {
     var newEl = $("<p></p>");
     newEl.html(str);
@@ -53,11 +56,13 @@ function outputToPage(str) {
 }
 
 // function taken from Wes's JavaScript file, converted from pure JS to jQuery
+// through ChatGPT
 function reportError(str) {
     outputEl.html("<div class='error'>" + str + "</div>");
 }
 
 // function taken from Wes's JavaScript file, converted from pure JS to jQuery
+// through ChatGPT
 $("#submit").click(function() {
     var max = $("#max").val();
     console.log("max:", max);
