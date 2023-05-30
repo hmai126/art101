@@ -9,27 +9,3 @@
     font-family: "Open Sans";
 }
 
-/* Styles for screens up to 600 pixels wide */
-@media (max-width: 600px) {
-    /* CSS rules here will apply to screens up to 600px wide */
-    body {
-      font-size: 14px;
-    }
-}
-  
-/* Styles for screens between 601px and 900px wide */
-@media (min-width: 601px) and (max-width: 900px) {
-    /* CSS rules here will apply to screens between 601px and 900px wide */
-    body {
-      font-size: 16px;
-    }
-}
-  
-/* Styles for screens above 900 pixels wide */
-@media (min-width: 901px) {
-    /* CSS rules here will apply to screens above 900px wide */
-    body {
-      font-size: 18px;
-    }
-}
-  
