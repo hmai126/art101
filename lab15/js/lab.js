@@ -1,4 +1,4 @@
-// 
+// function for the Pokemon API
 function pokemonAPI() {
     console.log("Clicked!");
     $.ajax({
