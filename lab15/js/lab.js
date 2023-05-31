@@ -1,3 +1,8 @@
+// lab.js - This JavaScript file utilizes AJAX to get
+//          information from the PokeAPI.
+// Author: Hilton Mai
+// Date: May 30, 2023
+
 // function for the Pokemon API
 function pokemonAPI() {
     console.log("Clicked!");
