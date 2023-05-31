@@ -8,3 +8,10 @@
 .content {
     font-family: "Open Sans";
 }
+
+#output {
+    font-family: "Open Sans";
+    border: solid 1px gray;
+    background-color: lightskyblue;
+    padding: 10px;
+}
